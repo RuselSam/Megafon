@@ -7,11 +7,11 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class MainsTariffs extends AbstractTariff {
+public class MainTariff extends AbstractTariff {
     private int minute;
     private int sms;
 
-    public MainsTariffs(int id, String name, int price, String period, int internet, int minute, int sms) {
+    public MainTariff(int id, String name, int price, String period, int internet, int minute, int sms) {
         super(id, name, price, period, internet);
         this.minute = minute;
         this.sms = sms;

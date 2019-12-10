@@ -7,11 +7,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class OtherTariffs extends AbstractTariff {
+public class OtherTariff extends AbstractTariff {
     private boolean unlimitedCalls;
     private boolean internetCapacity;
 
-    public OtherTariffs(int id, String name, int price, String period, int internet, boolean unlimitedCalls, boolean internetCapacity) {
+    public OtherTariff(int id, String name, int price, String period, int internet, boolean unlimitedCalls, boolean internetCapacity) {
         super(id, name, price, period, internet);
         this.unlimitedCalls = unlimitedCalls;
         this.internetCapacity = internetCapacity;

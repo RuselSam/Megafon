@@ -5,8 +5,8 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class RoutersTariffs extends AbstractTariff {
-    public RoutersTariffs(int id, String name, int price, String period, int internet) {
+public class RouterTariff extends AbstractTariff {
+    public RouterTariff(int id, String name, int price, String period, int internet) {
         super(id, name, price, period, internet);
     }
 
